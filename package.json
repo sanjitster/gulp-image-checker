@@ -1,0 +1,29 @@
+{
+  "name": "image_checker",
+  "version": "1.5.5",
+  "description": "Checks if images are of proper extensions and proportions. And split them in their different folders.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "gulp-ignore": "^2.0.1"
+  },
+  "devDependencies": {
+    "concurrent-transform": "^1.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-filelist": "^0.4.0",
+    "gulp-gm": "0.0.8",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sniff": "^3.2.0",
+    "gulp-util": "^3.0.7",
+    "node-fs": "^0.1.7",
+    "os": "^0.1.1",
+    "q": "^1.4.1"
+  },
+  "scripts": {
+    "test": "gulp default"
+  },
+  "author": "Santhosh Kuma",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+{
+	"directory": {
+		"sourceDir":	"source",
+		"validDir":		"validated/",
+		"invalidDir":	"invalid/",
+		"dstDir":		"resized/",
+		"workDir":	"working_files/"
+	},
+	"validFiletypes": [
+		"jpg",
+		"png"
+	],
+	"workingFiletypes": [
+		"eps",
+		"tif",
+		"psd",
+		"ai",
+		"PNG",
+		"JPEG"
+	],
+	"imgConvert": {
+		"width": 180,
+		"height": 120,
+		"resizeFormat": "png"
+	}
+}
