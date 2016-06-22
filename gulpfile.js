@@ -19,7 +19,9 @@ gulp.task('clean-validate', function() {
 	], {read: false})
 	.pipe(clean({force: true})).on('end', function() {
 		fs.remove(config.directory.validDir + 'data/filelist.json', function (err) {
-			if (err) return console.error(err);
+			if (err !== null) {
+				console.error(err);
+			}
 		});
 	});
 });
@@ -37,7 +39,9 @@ gulp.task('clean-resize', function() {
 	], {read: false})
 	.pipe(clean({force: true})).on('end', function() {
 		fs.remove(config.directory.dstDir + 'data/filelist.json', function (err) {
-			if (err) return console.error(err);
+			if (err !== null) {
+				console.error(err);
+			}
 		});
 	});
 });
