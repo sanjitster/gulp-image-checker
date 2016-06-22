@@ -1,7 +1,7 @@
 {
   "name": "image_checker",
   "version": "1.5.5",
-  "description": "Checks if images are of proper extensions and proportions. And split them in their different folders.",
+  "description": "Checks if images are of proper extensions and proportions. Organize them in different folders.",
   "main": "gulpfile.js",
   "dependencies": {
     "fs-extra": "^0.30.0",
