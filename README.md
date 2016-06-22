@@ -24,20 +24,20 @@ npm install
 
 Run `gulp` to trigger tasker to organize working files, invalid images and valid images.
 
-Run `gulp validfilenames` to trigger tasker to generate a json list of filenames form /valid folder. *output/valid/data*
+Run `gulp validfilenames` to trigger tasker to generate a json list of filenames form /valid folder.
 
-Run `gulp resize` to trigger tasker to resize, compress and export to a image type from the /valid folder. It also saves a json list of resized filenames. *out/resized*
+Run `gulp resize` to trigger tasker to resize, compress and export to an image type from the /valid folder. It also saves a json list of resized filenames.
 
 Run `gulp clean` to trigger tasker to flush all files and folders in /output. Files in source folder will not be amended.
 
 
 ## Individual Build Commands
 
-Run `gulp workingfiles` to trigger tasker to flush working files folder and re-extract working files from souce folder
+Run `gulp workingfiles` to trigger tasker to flush working files folder and re-extracts working files from souce folder
 
 Run `gulp invalid` to trigger tasker to flush invalid folder. It re-extracts invalid images and work files types from souce folder
 
-Run `gulp valid` to trigger tasker to flush valid folder and re-extract valid images from souce folder
+Run `gulp valid` to trigger tasker to flush valid folder and re-extracts valid images from souce folder
 
 
 ### Configuration (config.json)
