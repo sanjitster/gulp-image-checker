@@ -33,11 +33,11 @@ Run `gulp clean` to trigger tasker to flush all files and folders in /output. Fi
 
 ## Individual Build Commands
 
-Run `gulp workingfiles` to trigger tasker to flush working files folder and re-extracts working files from souce folder
+Run `gulp workingfiles` to trigger tasker to flush working files folder and re-extracts working files from souce folder.
 
-Run `gulp invalid` to trigger tasker to flush invalid folder. It re-extracts invalid images and work files types from souce folder
+Run `gulp invalid` to trigger tasker to flush invalid folder. It re-extracts invalid images and work files types from souce folder.
 
-Run `gulp valid` to trigger tasker to flush valid folder and re-extracts valid images from souce folder
+Run `gulp valid` to trigger tasker to flush valid folder and re-extracts valid images from souce folder.
 
 
 ### Configuration (config.json)
