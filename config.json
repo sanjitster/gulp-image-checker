@@ -1,10 +1,10 @@
 {
 	"directory": {
-		"sourceDir":	"source",
-		"validDir":		"validated/",
-		"invalidDir":	"invalid/",
-		"dstDir":		"resized/",
-		"workDir":	"working_files/"
+		"sourceDir":	"src",
+		"validDir":		"output/valid/",
+		"invalidDir":	"output/invalid/",
+		"resizeDir":	"output/resized/",
+		"workDir":		"output/working_files/"
 	},
 	"validFiletypes": [
 		"jpg",

@@ -1,1 +1,8 @@
 node_modules/
+src/*
+output/invalid/*
+output/resized/*
+output/resized/data/*
+output/valid/*
+output/valid/data/*
+output/working_files/*
