@@ -25,5 +25,5 @@
     "test": "gulp default"
   },
   "author": "Santhosh Kuma",
-  "license": "ISC"
+  "license": "MIT"
 }
