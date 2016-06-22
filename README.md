@@ -2,7 +2,11 @@
 
 [![devDependency Status](https://david-dm.org/sanjitster/gulp-image-checker/dev-status.svg)](https://david-dm.org/sanjitster/gulp-image-checker#info=devDependencies)
 
-This project enables files dropped into /src folder to be organized into multipal folders. It also enables resizing and compression of valid image type to another image type specified in the config.json. Source folder will not be flushed be able to repeat the extraction process over again.:
+This project enables files dropped into /src folder to be organized into multipal folders. Source folder will not be flushed to enable extraction process over again.
+
+It also enables resizing and compression of valid image type to another image type specified in the config.json.
+
+Project utilizes:
 
 - Gulp Taskers [Gulp](http://gulpjs.com/)
 - GraphicsMagick for node.js [gm](http://aheckmann.github.io/gm/)
