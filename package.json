@@ -5,12 +5,14 @@
   "main": "gulpfile.js",
   "dependencies": {
     "fs-extra": "^0.30.0",
+    "gulp-download": "0.0.1",
     "gulp-ignore": "^2.0.1"
   },
   "devDependencies": {
     "concurrent-transform": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
+    "gulp-csv-to-json": "^0.1.1",
     "gulp-filelist": "^0.4.0",
     "gulp-gm": "0.0.8",
     "gulp-plumber": "^1.1.0",
