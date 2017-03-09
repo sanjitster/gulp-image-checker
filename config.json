@@ -6,8 +6,8 @@
 		"resizeDir":	"output/resized/",
 		"workDir":		"output/working_files/"
 	},
-	"csvFile": "/Users/santhoshkuma/Dropbox/GIIFT.COM - Data Management/8. ETL/DMO/YouGotAGift/CSV/saudi_raw_images.csv",
-	"jsonFileName": "saudi_raw_images",
+	"csvFile": "/Users/santhoshkuma/Downloads/bahrain_raw_images.csv",
+	"jsonFileName": "bahrain_raw_images",
 	"validFiletypes": [
 		"jpg",
 		"png"
