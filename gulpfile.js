@@ -8,7 +8,7 @@ var gulp = require('gulp'),
     gm = require('gulp-gm'),
     sniff = require('gulp-sniff'),
     gulpIgnore = require('gulp-ignore'),
-    download = require('gulp-download'),
+    download = require('gulp-downloader'),
     csv2json = require('gulp-csv-to-json');
 
 // Configuration 
@@ -33,18 +33,32 @@ gulp.task('import', ['csvToJson'], function () {
     var json = JSON.parse(fs.readFileSync(config.directory.sourceDir + '/' + config.jsonFileName + '.json'));
     var build = [];
     for (var j in json) {
-        if (typeof json[j] === "object") {
-            var ij = json[j];
-            for (var inner in ij) {
-                build.push(ij[inner]);
+        if (json.hasOwnProperty(j)) {
+            if (typeof json[j] === "object") {
+                var ij = json[j];
+                for (var inner in ij) {
+                    build.push({
+                        fileName: j + '.' + ij[inner].split('.').pop(),
+                        request: {
+                            url: ij[inner]
+                        }
+                    });
+                }
+            } else {
+                build.push({
+                    fileName: j + '.' + json[j].split('.').pop(),
+                    request: {
+                        url: json[j]
+                    }
+                });
             }
-        } else {
-            build.push(json[j]);
         }
     }
+
     return download(build)
         .pipe(plumber())
         .pipe(rename(function (path) {
+            console.log(path);
             var str = path.basename;
             path.basename = str.toLowerCase().replace(/[\. ,:-\\']+/g, "_");
         }))

@@ -6,8 +6,8 @@
 		"resizeDir":	"output/resized/",
 		"workDir":		"output/working_files/"
 	},
-	"csvFile": "/Users/santhoshkuma/Downloads/bahrain_raw_images.csv",
-	"jsonFileName": "bahrain_raw_images",
+	"csvFile": "/Users/santhoshkuma/Downloads/page2.csv",
+	"jsonFileName": "page2",
 	"validFiletypes": [
 		"jpg",
 		"png"
@@ -21,8 +21,8 @@
 		"JPEG"
 	],
 	"imgConvert": {
-		"width": 180,
-		"height": 120,
+		"width": 200,
+		"height": 200,
 		"resizeFormat": "png"
 	}
 }
